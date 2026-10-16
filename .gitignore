@@ -1,55 +1,57 @@
-# Prerequisites
-*.d
+# ==============================
+# MPLAB X / XC8
+# ==============================
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+Makefile
+nbproject/
+dist/
+build/
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+# Compiler outputs
 *.hex
+*.elf
+*.map
+*.o
+*.d
+*.lst
+*.asm
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# ==============================
+# Arduino / ESP32
+# ==============================
 
-# debug information files
-*.dwo
+# Arduino build files
+build/
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+managed_components/
+
+
+# ==============================
+# IDEs
+# ==============================
+
+.vscode/
+.idea/
+
+
+# ==============================
+# Operating system
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==============================
+# Temporary / backup files
+# ==============================
+
+*.tmp
+*.bak
+*.swp
+*~
